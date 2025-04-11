@@ -75,7 +75,7 @@ if (isset($_POST['signin'])) {
         $_SESSION['username'] = $user['UserName'];  
         $_SESSION['Password'] = $user['Password']; 
 
-        echo "<p style='color: green;'>Signed in successfully/p>";
+        echo "<p style='color: green;'>Signed in successfully</p>";
 
         header("Location: homepage.php");  
         exit(); 
